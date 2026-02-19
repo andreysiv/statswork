@@ -5,10 +5,10 @@
 #include toml++; //` | Парсинг TOML конфигурации | [toml++](https://github.com/marzer/tomlplusplus) |
 #include spdlog;
 
-const int MAXLEN = 1048576;
-
 int main((int*) argc, (char*) argv[]){
-
+    
+    const int MAXLEN = 1048576;
+    
     StatsWork medcalcul = new StatsWork();
 
     for (int i = 0; i < MAXLEN; i++) {
@@ -22,5 +22,6 @@ int main((int*) argc, (char*) argv[]){
 }
 
 main();
+
 
 
