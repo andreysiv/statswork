@@ -7,5 +7,5 @@ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build
 
 # Запуск с конфигурацией
-./build/ -config config.toml
+./build/ -config config.ini
 
