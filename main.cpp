@@ -5,7 +5,7 @@
 #include toml++; //` | Парсинг TOML конфигурации | [toml++](https://github.com/marzer/tomlplusplus) |
 #include spdlog;
 
-#define MAXLEN = 1048576;
+const int MAXLEN = 1048576;
 
 int main((int*) argc, (char*) argv[]){
 
@@ -22,4 +22,5 @@ int main((int*) argc, (char*) argv[]){
 }
 
 main();
+
 
